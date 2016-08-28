@@ -1,0 +1,13 @@
+# Spark相关的代码
+
+## stream-process.py
+
+### dependencies
+pyspark         http://spark.apache.org/docs/latest/api/python/
+
+kafka-python    https://github.com/dpkp/kafka-python
+
+### Run
+```sh
+spark-submit --jars spark-streaming-kafka-0-8-assembly_2.11-2.0.0.jar stream-processing.py stock-analyzer average-stock-price 'docker-machine ip bigdata':9092
+```
