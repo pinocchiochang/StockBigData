@@ -19,5 +19,5 @@ npm install
 ### 运行代码
 假如你的所有服务运行在一个叫做bigdata的docker-machine里面, 然后虚拟机的ip是192.168.99.100
 ```sh
-node index.js --port=3000 --redis_host=192.168.99.100 --redis_port=6379 --subscribe_topic=average-stock-price
+node index.js --port=3000 --redis_host=192.168.99.100 --redis_port=6379 --subscribe_topic=averagePrice
 ```
