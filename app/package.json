@@ -1,0 +1,28 @@
+{
+  "name": "stockdata-visualizer",
+  "version": "0.0.1",
+  "description": "simple web app to visualize data",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jquery": "^3.1.0",
+    "minimist": "^1.2.0",
+    "redis": "^2.6.2",
+    "smoothie": "^1.27.0",
+    "socket.io": "^1.4.8"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinocchiochang/StockBigData.git"
+  },
+  "author": "pinocchiochang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pinocchiochang/StockBigData/issues"
+  },
+  "homepage": "https://github.com/pinocchiochang/StockBigData#readme"
+}
