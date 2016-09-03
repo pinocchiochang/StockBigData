@@ -7,3 +7,12 @@
 4. 构建spark构件，流处理kafka输出的数据，并将处理完的数据回流kafka作暂时缓存，这样可以让连接kafka的其他teams都可以共享处理后的数据
 5. 搭建redis存储系统，从kafka读取处理完的数据，以减轻kafka压力，并输出到前端
 6. 用nodejs搭建简单的前端应用，并利用smoothie模版实现data visualization
+
+# Run
+1. 进入docker文件夹按照README.md步骤
+2. 进入kafka文件夹按照README.md步骤
+3. 进入cassandra文件夹按照README.md步骤
+4. 进入spark文件夹按照README.md步骤
+5. 进入redis文件夹按照README.md步骤
+6. 进入app文件夹按照README.md步骤
+7. 访问localhost:3000，观察结果
