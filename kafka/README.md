@@ -1,6 +1,6 @@
 # Kafka
 
-## simple-data-producer.py
+## data-producer.py
 实现了一个kafka producer, 每秒钟从Google finance抓取一支股票的信息, 发送给Kafka
 
 ### Dependencies
